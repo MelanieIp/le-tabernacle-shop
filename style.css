@@ -1,0 +1,219 @@
+body {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f7f4;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: rgb(20, 10, 2);
+  margin-top: 30px;
+}
+
+h2 {
+  color: rgb(206, 15, 15);
+  text-align: center;
+  margin-top: 50px;
+}
+
+.description {
+  font-size: 15px;
+  color: #140303;
+  margin: 2px 0;
+  margin-top: 0;
+}
+
+.details {
+  font-size: 15px;
+  color: #070000;
+  margin: 2px 0;
+  margin-top: 0;
+}
+
+.price {
+  font-size: 18px;
+  font-weight: bold;
+  color: #000;
+  margin-top: 10px;
+}
+
+p {
+  font-size: 18px;
+}
+
+.categories {
+  margin: 20px 0;
+}
+
+.categories a {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: rgb(96, 48, 3);
+  color: white;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+.categories a:hover {
+  background-color: darkblue;
+}
+.product {
+  background-color: white;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 15px;
+  width: 220px;
+  text-align: center;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+.product:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
+  transform: translateY(-8px);
+}
+
+.product h3 {
+  margin-bottom: 5px;
+}
+
+button {
+  background-color: darkblue;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: navy;
+}
+
+.product-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.product img {
+  width: 100%;
+  height: 160px;
+  object-fit: contain;
+  background-color: #fff;
+}
+
+.navbar {
+  background-color: #5a2e0c;
+  padding: 15px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+}
+
+.navbar a {
+  color: white;
+  margin: 15px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  .product {
+    width: 90%;
+  }
+
+  .navbar a {
+    display: block;
+    margin: 10px 0;
+  }
+}
+
+.hero {
+  background-image: url("LeTabernacle.jpeg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 100px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  text-align: center;
+}
+.hero-box {
+  background-color: rgba(238, 229, 229, 0.6);
+  padding: 30px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.hero h1 {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 20px;
+  color: black;
+}
+
+.hero button {
+  background-color: darkblue;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+a {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 15px;
+  background-color: darkblue;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  background-color: darkblue;
+  color: white;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+.sidebar {
+  position: fixed;
+  left: 0;
+  top: 80px;
+  width: 150px;
+  background-color: #eee;
+  padding: 15px;
+}
+
+.sidebar a {
+  display: block;
+  margin: 10px 0;
+}
